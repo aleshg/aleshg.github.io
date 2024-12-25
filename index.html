@@ -1,1 +1,105 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVD - Armored Vehicle Designer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .todo {
+            background-color: #ffdddd;
+            color: #d9534f;
+        }
+        .wip {
+            background-color: #fff3cd;
+            color: #f0ad4e;
+        }
+        .done {
+            background-color: #d4edda;
+            color: #5cb85c;
+        }
+        .status {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Armored Vehicle Designer (AVD)</h1>
+        <ul class="features-list">
+            <li class="feature-item todo">
+                <span>1. Vehicle Blueprint Generator</span>
+                <span class="status">To Do</span>
+            </li>
+            <li class="feature-item wip">
+                <span>2. Armor Thickness Selector</span>
+                <span class="status">WIP</span>
+            </li>
+            <li class="feature-item done">
+                <span>3. Chassis Configuration</span>
+                <span class="status">Done</span>
+            </li>
+            <li class="feature-item todo">
+                <span>4. Weaponry Integration</span>
+                <span class="status">To Do</span>
+            </li>
+            <li class="feature-item wip">
+                <span>5. Engine Customization</span>
+                <span class="status">WIP</span>
+            </li>
+            <li class="feature-item done">
+                <span>6. Testing Environment</span>
+                <span class="status">Done</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
+How It Works:
+
+Each feature is listed with a status (To Do, Work in Progress, Done).
+
+Different background colors indicate the status:
+
+Red (To Do)
+
+Yellow (WIP)
+
+Green (Done)
+
+
+You can easily add or remove features by modifying the <li> items in the list.
+
+
+Would you like to add interactive elements, like buttons to change the status?
+
+
