@@ -27,6 +27,11 @@ nested;ammo_editor;Ammo Editor
 nested;tank_gun_editor;Tank Gun
 - ammo_editor
 
+item;todo;engine_piston_count;Engine Piston Count
+
+nested;engine_editor;Engine Editor
+- engine_piston_count
+
 item;wip;vehicle_controller;Vehicle Controller
 item;todo;at_gun_suspension;Gun Carriage Suspension
 item;todo;wheeled_suspension;Wheeled Suspension
@@ -42,22 +47,26 @@ nested;wheeled_vehicles;Wheeled vehicles
 - vehicle_controller
 - tank_gun_editor
 - wheeled_suspension
+- engine_editor
 
 nested;halftracks;Halftracks
 - vehicle_controller
 - tank_gun_editor
 - halftrack_suspension
+- engine_editor
 
 nested;tracked_vehicles;Tracked vehicles
 - vehicle_controller
 - tank_gun_editor
 - tracked_suspension
+- engine_editor
 
 nested;vehicles;Vehicles
 - at_guns
 - wheeled_vehicles
 - halftracks
 - tracked_vehicles
+- engine_editor
 
 nested;alpha;Alpha
 - vehicles
