@@ -78,16 +78,7 @@
 <p>Welcome to the main AVD feature tracker page.</p>
 <h2>Feature list (click to expand)</h2>
 
-<ul id="tree">
-<li>
-<span class="caret">My nested task</span>
-<span class="progress">0%</span>
-<ul class="nested">
-<li><span class="wip">wip</span> My iten task</li>
-</ul>
-</li>
-</ul>
-
+%feature_list%
 
 <script>
   // Expand/collapse functionality

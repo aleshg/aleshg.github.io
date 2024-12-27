@@ -1,0 +1,19 @@
+<ul id="tree">
+  <li>
+    <span class="caret">Project A</span>
+    <span class="progress">0%</span>
+    <ul class="nested">
+      <li>
+        <span class="caret">Task 1</span>
+        <span class="progress">0%</span>
+        <ul class="nested">
+          <li><span class="todo">To-Do</span> Subtask 1</li>
+          <li><span class="wip">WIP</span> Subtask 2</li>
+          <li><span class="done">Done</span> Subtask 3</li>
+        </ul>
+      </li>
+      <li><span class="todo">To-Do</span> Task 2</li>
+      <li><span class="done">Done</span> Task 3</li>
+    </ul>
+  </li>
+</ul>
