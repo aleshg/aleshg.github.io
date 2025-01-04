@@ -108,7 +108,7 @@
 
       let progress = 0;
       if (totalCount > 0) {
-        progress = ((doneCount + wipCount * 0.5) / totalCount) * 100;
+        progress = ((doneCount + wipCount * 0.1) / totalCount) * 100;
       }
 
       const parentProgress = list.parentElement.querySelector(".progress");

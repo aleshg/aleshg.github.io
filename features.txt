@@ -10,6 +10,7 @@ item;done;he_shell;HE Shell
 item;done;hesh_shell;HESH Shell
 item;done;heat_shell;HEAT Shell
 item;todo;smoke_shell;Smoke Shell
+item;todo;ammo_editor_save;Save Ammo Configuration
 
 nested;ammo_editor;Ammo Editor
 - ap_shell
@@ -23,14 +24,53 @@ nested;ammo_editor;Ammo Editor
 - hesh_shell
 - heat_shell
 - smoke_shell
+- ammo_editor_save
+
+item;done;tank_gun_barrel_length;Barrel Length
+item;done;tank_gun_barrel_diameter;Barrel diameter
+item;wip;tank_gun_scope;Scope
+item;todo;tank_gun_smoothbore;Smoothbore Barrel
+item;todo;tank_gun_rifled;Rifled Barrel
+item;wip;tank_gun_traverse_mechanism;Traverse Mechanism
+item;wip;tank_gun_elevation_mechanism;Elevation Mechanism
+item;wip;tank_gun_trigger;Trigger
+item;wip;tank_gun_fume_extractor;Fume Extractor
+item;todo;tank_gun_editor_save;Save Tank Gun Configuration
+item;todo;tank_gun_load_ammo;Use Ammo Preset
 
 nested;tank_gun_editor;Tank Gun
 - ammo_editor
+- tank_gun_barrel_length
+- tank_gun_barrel_diameter
+- tank_gun_scope
+- tank_gun_smoothbore
+- tank_gun_rifled
+- tank_gun_traverse_mechanism
+- tank_gun_elevation_mechanism
+- tank_gun_trigger
+- tank_gun_fume_extractor
+- tank_gun_editor_save
+- tank_gun_load_ammo
+
+
+item;done;wheel_tire_diameter;Tire Diameter
+item;todo;wheel_save;Save Wheel Configuration
+
+nested;wheel_editor;Wheel Editor
+- wheel_tire_diameter
+- wheel_save
 
 item;todo;engine_piston_count;Engine Piston Count
+item;todo;engine_save;Save Engine Configuration
 
 nested;engine_editor;Engine Editor
 - engine_piston_count
+- engine_save
+
+item;todo;armor_editor_place_plates;Manipulation with Armor Plate
+
+nested;armor_editor;Armor Editor
+- armor_editor_place_plates
 
 item;wip;vehicle_controller;Vehicle Controller
 item;todo;at_gun_suspension;Gun Carriage Suspension
@@ -42,31 +82,47 @@ nested;at_guns;Gun Carriages
 - vehicle_controller
 - tank_gun_editor
 - at_gun_suspension
+- armor_editor
+- wheel_editor
 
 nested;wheeled_vehicles;Wheeled vehicles
 - vehicle_controller
 - tank_gun_editor
 - wheeled_suspension
 - engine_editor
+- armor_editor
+- wheel_editor
 
 nested;halftracks;Halftracks
 - vehicle_controller
 - tank_gun_editor
 - halftrack_suspension
 - engine_editor
+- armor_editor
+- wheel_editor
 
 nested;tracked_vehicles;Tracked vehicles
 - vehicle_controller
 - tank_gun_editor
 - tracked_suspension
 - engine_editor
+- armor_editor
+- wheel_editor
 
 nested;vehicles;Vehicles
 - at_guns
 - wheeled_vehicles
 - halftracks
 - tracked_vehicles
-- engine_editor
+
+item;wip;main_menu;Main Menu
+item;wip;options_menu;Options Menu
+
+nested;gui;User Interface
+- main_menu
+- options_menu
+
 
 nested;alpha;Alpha
 - vehicles
+- gui
